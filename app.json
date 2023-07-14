@@ -1,13 +1,15 @@
 {
   "expo": {
+    "sdkVersion": "49.0.0",
     "name": "uber-clone",
+    "description": "uber-clone practice project",
     "slug": "uber-clone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/uber-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/uber-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +21,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/uber-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ankandas.uberclone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a3edf6a6-61e8-4006-b4c7-187847b1d41d"
+      }
     }
   }
 }
